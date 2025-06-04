@@ -12,6 +12,6 @@ export default function TwoSum () {
 
 const styles = StyleSheet.create({
     container: {
-        display: 'flex'
+        display: 'flex',
     }
 });

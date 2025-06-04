@@ -23,7 +23,7 @@ export default function RootLayout() {
         <Stack.Screen name="index" options={{ title: 'Questions' }} />
         <Stack.Screen name="calculator" options={{ headerShown: true, title: 'Challenge 1' }} />
         <Stack.Screen name="navbar" options={{ headerShown: true, title: 'Challenge 2' }} />
-        <Stack.Screen name="twosum" options={{ headerShown: true, title: 'Challenge 3' }} />
+        <Stack.Screen name="two-sum" options={{ headerShown: true, title: 'Challenge 3' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

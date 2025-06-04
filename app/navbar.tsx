@@ -11,5 +11,5 @@ export default function navbar () {
 }
 
 const styles = StyleSheet.create({
-    container: { backgroundColor: '#ffffff' }
+    container: { backgroundColor: '#ffffff', height: '100%' }
 })
