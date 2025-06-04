@@ -1,3 +1,4 @@
+import { Colors } from '@/constants/Colors';
 import React, { useState } from 'react';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
@@ -9,6 +10,9 @@ export default function Calculator() {
   const onSubmit = () => {
     if (firstNumber === '' || secondNumber === '') {
       setError('Fields should not be an empty!')
+    }
+    else if (Number.isNaN(Number(firstNumber)) || Number.isNaN(Number(secondNumber))) {
+      setError('Not a valid number!')
     }
     else {
       const sum = Number(firstNumber) + Number(secondNumber)
@@ -56,7 +60,7 @@ const styles = StyleSheet.create({
     container: {
       display: 'flex',
       alignItems: 'center',
-      backgroundColor: '#ffffff',
+      backgroundColor: Colors.light.background,
       flexDirection: 'column',
       paddingTop: 50,
     },
@@ -70,7 +74,7 @@ const styles = StyleSheet.create({
       height: 40,
       padding: 10,
       borderWidth: 1,
-      borderColor: '#0F8BF8',
+      borderColor: Colors.light.inputBorder,
       borderRadius: 5,
     },
     addBtn: {
@@ -81,13 +85,13 @@ const styles = StyleSheet.create({
       marginTop: 20,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#0F8BF8'
+      backgroundColor: Colors.light.button
     },
     btnText: {
-      color: '#ffffff'
+      color: Colors.light.buttonText
     },
     errText: {
-      color: '#FF0000',
+      color: Colors.light.error,
       marginTop: 15,
       flexWrap: 'wrap'
     },

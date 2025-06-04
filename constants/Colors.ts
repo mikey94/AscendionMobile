@@ -9,6 +9,12 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    button: '#0F8BF8',
+    inputBorder: '#0F8BF8',
+    error: '#FF0000',
+    navBack: '#f2f2f2',
+    search: '#f2f2f2',
+    buttonText: '#fff'
   },
   dark: {
     text: '#ECEDEE',

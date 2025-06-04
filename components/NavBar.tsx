@@ -1,3 +1,4 @@
+import { Colors } from '@/constants/Colors';
 import React, { useState } from 'react';
 import { Linking, Platform, StyleSheet, Text, TextInput, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 
@@ -63,17 +64,58 @@ export default function Navbar() {
 }
 
 const styles = StyleSheet.create({
-  container: { backgroundColor: '#ffffff' },
-  navbar: { flexDirection: 'row', alignItems: 'center', padding: 16, justifyContent: 'space-between' },
-  title: { fontWeight: 'bold', color: 'blue', padding: 6 },
-  search: { borderWidth: 1, padding: 8, flex: 1, marginHorizontal: 10, width: 300, backgroundColor: '#f2f2f2', borderColor: 'transparent' },
-  toggle: { fontSize: 20 },
-  menu: { padding: 16, backgroundColor: '#f2f2f2' },
-  menuDesktop: { flexDirection: 'row' },
-  menuItem: { paddingVertical: 6 },
-  menuItemDesktop: { padding: 6 },
-  aTag: { textDecorationLine: 'none' },
-  aTagDesktop: { textDecorationLine: 'none', padding: 6 },
-  leftContent: { flexDirection: 'row', alignItems: 'center' },
-  rightContent: {  flexDirection: 'row', alignItems: 'center' }
+  container: { 
+    backgroundColor: Colors.light.background 
+  },
+  navbar: { 
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    padding: 16, 
+    justifyContent: 'space-between' 
+  },
+  title: { 
+    fontWeight: 'bold', 
+    color: 'blue', 
+    padding: 6 
+  },
+  search: { 
+    borderWidth: 1, 
+    padding: 8, 
+    flex: 1, 
+    marginHorizontal: 10, 
+    width: 300, 
+    backgroundColor: Colors.light.search, 
+    borderColor: 'transparent' 
+  },
+  toggle: { 
+    fontSize: 20 
+  },
+  menu: { 
+    padding: 16, 
+    backgroundColor: Colors.light.navBack 
+  },
+  menuDesktop: { 
+    flexDirection: 'row' 
+  },
+  menuItem: { 
+    paddingVertical: 6 
+  },
+  menuItemDesktop: { 
+    padding: 6 
+  },
+  aTag: { 
+    textDecorationLine: 'none' 
+  },
+  aTagDesktop: { 
+    textDecorationLine: 'none', 
+    padding: 6 
+  },
+  leftContent: { 
+    flexDirection: 'row', 
+    alignItems: 'center' 
+  },
+  rightContent: {  
+    flexDirection: 'row', 
+    alignItems: 'center' 
+  }
 });
