@@ -1,8 +1,8 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Ascendion Test
 
 ## Get started
+
+For this application, I'm using React Native Expo. Please follow the instructions below to run the project.
 
 1. Install dependencies
 
@@ -19,6 +19,13 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm start
    ```
+
+After running the above code, you will get the following information in the terminal.
+
+<img width="346" alt="Screenshot 2025-06-04 at 16 40 27" src="https://github.com/user-attachments/assets/c268425a-c349-4be9-82f8-5c1345c5c5f5" />
+
+You can follow the above instructions to run the app on iOS, Android, or the Web.
+
 &nbsp;&nbsp;&nbsp;
 
 Question 1 - Screenshots
