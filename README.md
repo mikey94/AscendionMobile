@@ -15,36 +15,40 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npx expo start
    ```
+   or
+   ```bash
+   npm start
+   ```
+&nbsp;&nbsp;&nbsp;
 
-In the output, you'll find options to open the app in a
+Question 1 - Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<p>
+   <img src="./assets/images/screenshots/Challenge1_1.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge1_2.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge1_3.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge1_4.png" width="300" alt="App UI" />
+</p>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+&nbsp;&nbsp;&nbsp;
 
-## Get a fresh project
+Question 2 - Screenshots
 
-When you're ready, run:
+<p>
+   <img src="./assets/images/screenshots/Challenge2_1.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge2_2.png" width="700" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge2_3.png" width="300" alt="App UI" />
+</p>
 
-```bash
-npm run reset-project
-```
+&nbsp;&nbsp;&nbsp;
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Question 3 - Screenshots
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<p>
+   <img src="./assets/images/screenshots/Challenge3_1.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge3_2.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge3_3.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge3_4.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge3_5.png" width="300" alt="App UI" />
+   <img src="./assets/images/screenshots/Challenge3_6.png" width="300" alt="App UI" />
+</p>
