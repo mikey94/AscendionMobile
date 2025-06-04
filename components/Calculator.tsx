@@ -8,7 +8,7 @@ export default function Calculator() {
   const [error, setError] = useState<string>('');
   const onSubmit = () => {
     if (firstNumber === '' || secondNumber === '') {
-      setError('Fields should not be empty!')
+      setError('Fields should not be an empty!')
     }
     else {
       const sum = Number(firstNumber) + Number(secondNumber)
@@ -46,7 +46,7 @@ export default function Calculator() {
           <Text style={styles.btnText}>Add Two Numbers</Text>
         </TouchableOpacity>
         {
-          sum !== null && (<Text>Total: {sum}</Text>)
+          sum !== null && (<Text style={styles.totalText}>Total: {sum}</Text>)
         }
     </View>
   )
@@ -90,5 +90,10 @@ const styles = StyleSheet.create({
       color: '#FF0000',
       marginTop: 15,
       flexWrap: 'wrap'
+    },
+    totalText: {
+      fontSize: 20,
+      marginTop: 10,
+      fontWeight: '600'
     }
 });

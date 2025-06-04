@@ -11,7 +11,7 @@ export default function HomeScreen() {
 
       <View style={styles.buttonGroup}>
         <Button title="Go to Calculator" onPress={() => router.push('/calculator')} />
-        <Button title="Go to Navbar Demo" onPress={() => router.push('/navbar')} />
+        <Button title="Go to Navbar" onPress={() => router.push('/navbar')} />
         <Button title="Go to Two Sum" onPress={() => router.push('/twosum')} />
       </View>
     </SafeAreaView>
